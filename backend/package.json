@@ -21,6 +21,7 @@
     "multer": "^1.4.5-lts.1",
     "nodemon": "^3.1.7",
     "razorpay": "^2.9.5",
+    "react-router-dom": "^6.28.1",
     "stripe": "^17.3.1",
     "validator": "^13.12.0"
   }

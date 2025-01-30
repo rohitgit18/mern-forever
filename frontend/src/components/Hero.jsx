@@ -1,7 +1,7 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 
-function Hreo() {
+function Hero() {
   return (
     <div className='flex flex-col sm:flex-row border border-gray-400'>
       {/* Hero Left side */}
@@ -24,4 +24,4 @@ function Hreo() {
   )
 }
 
-export default Hreo
+export default Hero

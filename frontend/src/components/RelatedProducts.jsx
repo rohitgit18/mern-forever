@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
+import Product from '../pages/Product';
 import { ShopContext } from '../context/ShopContext'
 import Title from './Title';
 import ProductItem from './ProductItem';
@@ -12,6 +13,7 @@ const RelatedProducts = ({category,subCategory}) => {
       if (products.length > 0)  {
         
         let productsCopy = products.slice();
+
         productsCopy = productsCopy.filter((item)=> category === item.category);
         productsCopy = productsCopy.filter((item)=> subCategory === item.subCategory);
 
